@@ -29,6 +29,7 @@ nav {
   }
   img {
     padding-left: 2rem;
+    padding-right: 2rem;
     border-left:2rem ;
     padding-bottom: 1rem;
     padding-top: 1rem;
@@ -89,6 +90,7 @@ nav {
   .iMessageBlue{
     background-color: #1982FC;
   }
+  
   .contact-bubble{
     border-radius: 100%;
     background-color: black;
@@ -99,6 +101,7 @@ nav {
    margin-top: 2rem;
 
   }
+
   .contact-name{
     color: white;
     position:relative;
@@ -114,5 +117,15 @@ nav {
   }
   .body{
    background-color: black;
+  }
+  img.messageRounded{
+    
+    border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+  }
+  .marginTop{
+    margin-top: 1rem;
   }
 
